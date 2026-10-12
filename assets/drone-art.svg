@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="620" viewBox="0 0 1000 620" fill="none" role="img" aria-label="Graphite technical illustration of a quadcopter drone">
+  <defs>
+    <linearGradient id="carbon" x1="280" y1="185" x2="720" y2="480" gradientUnits="userSpaceOnUse"><stop stop-color="#656F7A"/><stop offset=".37" stop-color="#222B34"/><stop offset="1" stop-color="#0D1218"/></linearGradient>
+    <linearGradient id="metal" x1="275" y1="190" x2="715" y2="450" gradientUnits="userSpaceOnUse"><stop stop-color="#D6DDE2"/><stop offset=".40" stop-color="#9DA9B2"/><stop offset=".84" stop-color="#55616C"/><stop offset="1" stop-color="#26313A"/></linearGradient>
+    <linearGradient id="shell" x1="390" y1="235" x2="620" y2="450" gradientUnits="userSpaceOnUse"><stop stop-color="#DAE1E5"/><stop offset=".25" stop-color="#ABB7BF"/><stop offset=".73" stop-color="#59646F"/><stop offset="1" stop-color="#1B242D"/></linearGradient>
+    <radialGradient id="lens"><stop stop-color="#8FE3FA"/><stop offset=".14" stop-color="#172E3D"/><stop offset=".50" stop-color="#111821"/><stop offset=".78" stop-color="#35414C"/><stop offset="1" stop-color="#030609"/></radialGradient>
+    <filter id="shadow" x="-30%" y="-70%" width="160%" height="260%"><feGaussianBlur stdDeviation="12"/></filter>
+  </defs>
+  <ellipse cx="500" cy="518" rx="269" ry="26" fill="#2B3137" opacity=".13" filter="url(#shadow)"/>
+  <!-- rear arms -->
+  <path d="M467 306 301 211 278 230 444 354Z" fill="url(#carbon)" stroke="#222C35" stroke-width="4"/>
+  <path d="m535 307 165-96 22 20-166 123Z" fill="url(#carbon)" stroke="#222C35" stroke-width="4"/>
+  <path d="m462 321-160-106m238 107 162-109" stroke="#D2D9DD" stroke-width="5" stroke-linecap="round" opacity=".62"/>
+  <!-- front arms -->
+  <path d="m459 353-171 89 12 29 178-81Z" fill="url(#carbon)" stroke="#19232C" stroke-width="5"/>
+  <path d="m544 353 171 89-12 29-178-81Z" fill="url(#carbon)" stroke="#19232C" stroke-width="5"/>
+  <path d="m452 370-147 81m241-81 149 81" stroke="#ABB9C2" opacity=".7" stroke-width="5" stroke-linecap="round"/>
+  <!-- rear engines -->
+  <ellipse cx="270" cy="212" rx="46" ry="20" fill="#2B333B" stroke="#95A3AE" stroke-width="4"/>
+  <ellipse cx="730" cy="212" rx="46" ry="20" fill="#2B333B" stroke="#95A3AE" stroke-width="4"/>
+  <path d="M270 198v-17m460 17v-17" stroke="#717F88" stroke-width="7" stroke-linecap="round"/>
+  <!-- rear props -->
+  <ellipse cx="270" cy="181" rx="116" ry="15" fill="#4D5A64" opacity=".28" stroke="#6D7880" stroke-width="1.5"/>
+  <ellipse cx="730" cy="181" rx="116" ry="15" fill="#4D5A64" opacity=".28" stroke="#6D7880" stroke-width="1.5"/>
+  <path d="M161 179Q241 164 270 180Q315 162 380 182Q301 196 270 183Q225 194 161 179Z" fill="url(#metal)" stroke="#3C4750" stroke-width="2"/>
+  <path d="M620 182Q682 164 730 180Q774 164 839 179Q769 195 730 183Q678 198 620 182Z" fill="url(#metal)" stroke="#3C4750" stroke-width="2"/>
+  <!-- landing gear -->
+  <path d="m458 400-18 83m103-83 18 83m-133 1 29 0m84 0 32 0" stroke="#3E4952" stroke-width="9" stroke-linecap="round"/>
+  <path d="m458 400-18 83m103-83 18 83" stroke="#B1BDC5" stroke-width="3" stroke-linecap="round"/>
+  <!-- main fuselage -->
+  <path d="M455 270q45-37 90 0l57 93q8 26-21 46l-81 31-80-31q-28-19-21-46Z" fill="url(#shell)" stroke="#25303A" stroke-width="6"/>
+  <path d="m455 275 45 23 45-23-18 111-27 24-27-24Z" fill="#9EAAB3" opacity=".47"/>
+  <path d="m420 351 80 58 81-58m-126-81 45 28 45-28" stroke="#DFE5E8" stroke-width="4" opacity=".8"/>
+  <path d="m432 324 29-21 10 63-34-9Zm136 0-29-21-10 63 34-9Z" fill="#1E2932" opacity=".85"/>
+  <path d="m448 301 16-12m88 12-16-12" stroke="#C4DBE4" stroke-width="3" opacity=".7"/>
+  <path d="m471 358 29 13 29-13" stroke="#E3ECEF" stroke-width="3" stroke-linecap="round"/>
+  <!-- camera gimbal -->
+  <path d="M470 423v22q0 10 10 15h40q10-5 10-15v-22" stroke="#4D5863" stroke-width="11"/>
+  <rect x="461" y="448" width="78" height="71" rx="16" fill="url(#carbon)" stroke="#A7B3BA" stroke-width="5"/>
+  <circle cx="500" cy="484" r="28" fill="#111A22" stroke="#C2D0D9" stroke-width="5"/>
+  <circle cx="500" cy="484" r="21" fill="url(#lens)" stroke="#5B7889" stroke-width="3"/>
+  <circle cx="492" cy="474" r="6" fill="#B5DDEA" opacity=".8"/>
+  <!-- front engines and rotors -->
+  <ellipse cx="275" cy="462" rx="49" ry="23" fill="#222B33" stroke="#B2BFC8" stroke-width="4"/>
+  <ellipse cx="725" cy="462" rx="49" ry="23" fill="#222B33" stroke="#B2BFC8" stroke-width="4"/>
+  <path d="M275 445v-16m450 16v-16" stroke="#54626D" stroke-width="8" stroke-linecap="round"/>
+  <ellipse cx="275" cy="427" rx="135" ry="19" fill="#A7B3BA" opacity=".12" stroke="#7E8D98" stroke-width="1.5"/>
+  <ellipse cx="725" cy="427" rx="135" ry="19" fill="#A7B3BA" opacity=".12" stroke="#7E8D98" stroke-width="1.5"/>
+  <path d="M143 426Q225 407 275 425Q341 409 407 427Q319 449 275 430Q207 449 143 426Z" fill="url(#metal)" stroke="#4A5660" stroke-width="2"/>
+  <path d="M593 427Q665 409 725 425Q792 406 857 426Q780 448 725 430Q654 448 593 427Z" fill="url(#metal)" stroke="#4A5660" stroke-width="2"/>
+  <ellipse cx="275" cy="426" rx="10" ry="6" fill="#DAE2E6"/><ellipse cx="725" cy="426" rx="10" ry="6" fill="#DAE2E6"/>
+  <!-- precision marks -->
+  <path d="M455 253h90" stroke="#8599A8" stroke-width="2" opacity=".45"/>
+  <circle cx="500" cy="260" r="3" fill="#D4E9F1"/>
+</svg>
