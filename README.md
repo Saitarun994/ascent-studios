@@ -26,18 +26,18 @@ A custom domain can be connected in the hosting provider's settings. The site ha
 
 - `index.html` — accessible semantic landing page and gallery markup
 - `styles.css` — Apple-inspired minimalist / editorial design and responsive breakpoints
-- `script.js` — carousel filtering, navigation, lightbox, and footer year
+- `contact.js` — business email, phone, Instagram, and LinkedIn details used across the page
+- `script.js` — carousel filtering, navigation, lightbox, contact links, and footer year
 - `assets/` — web-optimized client-supplied photography, generated transparent drone artwork, favicon, social preview
 
 ## Editing
 
-Change headlines, service descriptions, and contact details directly in `index.html`. The gallery is an HTML list of `.gallery-item` cards, with `data-category="construction"` or `data-category="creative"`. When adding/removing images, update the category filter numbers (07 and 03, currently) and image count (10).
+Change contact details (email, phone, Instagram, LinkedIn) in `contact.js`. Change headlines and service descriptions directly in `index.html`. The gallery is an HTML list of `.gallery-item` cards, with `data-category="construction"` or `data-category="creative"`. When adding/removing images, update the category filter numbers (07 and 03, currently) and image count (10).
 
 Replace `assets/drone-art.png` to change the decorative hero drone. The original editable SVG used to generate it is `assets/drone-art.svg`. Set `display:none` on `.drone-decoration` to remove it.
 
 ## Before publishing
 
-- Confirm the supplied `tolat@lanl.gov` address is approved for commercial inquiries. It is an institutional address and the owner should approve public business use.
 - Verify final photo usage rights and obtain the owner's approval for the bio and services copy.
 - Confirm whether the client accepts the wording "USA" or prefers a particular city/region.
 - Replace the social preview image and adjust meta copy if branding changes.

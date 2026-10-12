@@ -86,5 +86,25 @@ lightbox.addEventListener("click", event => {
 });
 lightbox.addEventListener("close", () => { lightboxImage.src = ""; });
 
+const contactHrefs = {
+  email: `mailto:${CONTACT.email}?subject=${encodeURIComponent(CONTACT.emailSubject)}`,
+  phone: `tel:${CONTACT.phone}`,
+  instagram: `https://www.instagram.com/${CONTACT.instagramHandle}/`,
+  linkedin: CONTACT.linkedinUrl,
+};
+const contactText = {
+  email: CONTACT.email,
+  phone: CONTACT.phoneDisplay,
+  instagram: `@${CONTACT.instagramHandle}`,
+  linkedin: CONTACT.linkedinName,
+};
+
+document.querySelectorAll("[data-contact-href]").forEach(link => {
+  link.href = contactHrefs[link.dataset.contactHref];
+});
+document.querySelectorAll("[data-contact-text]").forEach(element => {
+  element.textContent = contactText[element.dataset.contactText];
+});
+
 document.getElementById("copyright-year").textContent = String(new Date().getFullYear());
 updateGalleryControls();
